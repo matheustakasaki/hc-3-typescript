@@ -70,17 +70,17 @@ console.log(ghost.dizerNome());
 // Interfaces
 
 interface IGameWithDescription {
-//   nome: string;
+  //   nome: string;
   descricao: string;
   dizerNomeComDescricao(): string;
 }
 class GameWithDescription extends Game implements IGameWithDescription {
-  public description;
+  public descricao: string;
 
   constructor(name: string, description: string) {
     super(name);
 
-    this.description = description;
+    this.descricao = description;
   }
 
   dizerNomeComDescricao() {
