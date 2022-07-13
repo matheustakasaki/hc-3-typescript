@@ -9,3 +9,4 @@ type Jogo = {
 // let jogo = {} as Jogo;
 //  ou
 let jogo = <Jogo>{};
+// Type assertions
